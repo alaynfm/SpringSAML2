@@ -1,0 +1,21 @@
+miIdp:
+  registrationId: miIdp
+  metadataLocation: classpath:/metadata/idp-metadata.xml
+  
+# saml2:
+#   relyingparty:
+#     registration:
+#       miIdp:
+#         identityprovider:
+#           entity-id: http://www.okta.com/exkfg2gnptz7D4ZDd5d7
+#           sso-url: https://dev-20789512.okta.com/app/dev-20789512_saml2_1/exkfg2gnptz7D4ZDd5d7/sso/saml
+#           certificate-location: okta.cert
+
+#spring:
+#  security:
+#    saml2:
+#      relyingparty:
+#        registration:
+#          miIdp:
+#            identityprovider:
+#              metadata-uri: "https://dev-20789512.okta.com/app/exkfg2gnptz7D4ZDd5d7/sso/saml/metadata"

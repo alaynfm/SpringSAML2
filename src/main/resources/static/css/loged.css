@@ -1,0 +1,38 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el texto de bienvenida */
+h2, p {
+    text-align: center;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    border: 2px solid #4CAF50; /* Bordes verdes */
+    padding: 2em;
+    width: calc(100% - 10%); /* Ancho menos los márgenes laterales */
+    max-width: 600px; /* Ancho máximo para asegurar la legibilidad */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: #ffffff; /* Fondo blanco para el contraste */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 20px; /* Margen exterior para evitar que el contenedor toque los bordes de la pantalla */
+}
+
+/* Media query para ajustes en dispositivos más pequeños */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Ancho mayor para pantallas pequeñas */
+        padding: 1em;
+    }
+}
+

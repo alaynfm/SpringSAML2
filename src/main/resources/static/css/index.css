@@ -1,0 +1,71 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    border: 2px solid #4CAF50; /* Bordes verdes */
+    padding: 2em;
+    width: calc(100% - 10%); /* Ancho menos los márgenes laterales */
+    height: 40vh; /* Altura fija del 20% de la altura de la pantalla */
+    text-align: center;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+/* Estilos para el formulario y elementos internos */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px; /* Padding reducido para un botón más compacto */
+    background-color: #0078D4; /* Azul Microsoft */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px; /* Ajuste opcional para el tamaño de la fuente */
+    width: 190px; /* Ajusta la anchura según el contenido */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+    transition: background-color 0.3s;
+    font-size:18px;
+}
+
+button:hover {
+    background-color: #005ea6;
+    
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: calc(100% - 10%);
+        height: 30vh; /* Ajusta la altura en dispositivos más pequeños */
+        padding: 1em;
+    }
+}
+
+.logo-microsoft {
+    /* Ajustes para la imagen, si son necesarios. Ejemplo: */
+    max-width: 100px; /* Ajusta según necesites */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin: 0 auto 20px; /* Centra la imagen y agrega margen debajo */
+    margin-bottom:0%;
+}
+
+
