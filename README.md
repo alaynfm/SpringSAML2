@@ -1,5 +1,6 @@
 # SpringSAML2
-Spring SAML2 auth with Okta idp
+
+Spring SAML2 authentication with IDP
 
 ## Dependencies
 
